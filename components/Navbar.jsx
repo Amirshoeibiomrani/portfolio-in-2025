@@ -12,7 +12,7 @@ const links = [
 ]
 
 
- const Navbar = ({containerStyles, linkStyles, underlineStyles}) => {
+ const Navbar = ({containerStyles, linkStyles, underlineStyles})  => {
     const path = usePathname()
 
   return (
