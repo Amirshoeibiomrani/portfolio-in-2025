@@ -49,7 +49,7 @@ function Hero() {
                 </div>
             </div>
             {/* icon */}
-            <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-1/2 animate-bounce">
+            <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
                 <RiArrowDownSLine className="text-3xl text-primary" />
             </div>
         </div>
