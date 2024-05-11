@@ -1,10 +1,9 @@
-@tailwind base;
+  @tailwind base;
   @tailwind components;
   @tailwind utilities;
 
-  @layer base {
-  
-@layer base {
+
+
   :root {
     --background: 0 0% 100%;
     --foreground: 240 19% 16%;
@@ -51,18 +50,18 @@
     --input: 237 22% 23%;
     --ring: 8 99% 67%;
   }
-}
 
-  }
 
-  @layer base {
+  
+
+
     * {
       @apply border-border;
     }
     body {
       @apply bg-background text-foreground;
     }
-  }
+  
 
 
   .h1 {
@@ -74,6 +73,6 @@
     @apply text-muted-foreground text-lg mb-8 font-light 
   }
 
-  .badge{
+  .badge {
     @apply z-10 w-[200px] bg-white h-[68px] dark:backdrop-blur-[44px] shadow-2xl p-4 rounded-[10px] flex items-center gap-x-4;
   }
