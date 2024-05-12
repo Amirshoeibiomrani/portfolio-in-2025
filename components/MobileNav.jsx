@@ -1,6 +1,6 @@
-import { AlignJustify, Sheet } from 'lucide-react';
-import React from 'react'
-import { SheetContent, SheetTrigger } from './ui/sheet';
+import { AlignJustify } from 'lucide-react';
+ import { SheetContent, SheetTrigger,Sheet } from './ui/sheet';
+
 import Logo from './Logo';
 import Navbar from './Navbar';
 import Socials from './Socials';
@@ -13,13 +13,13 @@ import Socials from './Socials';
 
       </SheetTrigger>
       <SheetContent>
-        <div >
-          <div>
+        <div className='flex flex-col items-center justify-between h-full py-8'>
+          <div className='flex flex-col items-center gap-y-32'>
             <Logo />
-            <Navbar />
-            <Socials />
-            
+            <Navbar containerStyles="flex flex-col items-center gap-y-6" linkStyles='text-2xl' />
+
           </div>
+            <Socials containerStyles='flex gap-x-4 ' iconsStyles='text-2xl' />
         </div>
       </SheetContent>
     </Sheet>
