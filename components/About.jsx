@@ -124,15 +124,22 @@ import Image from "next/image"
                 {/* tabs */}
                 <div className="flex-1">
                     <Tabs>
-                        <TabsList>
-                            <TabsTrigger value='personal'>Personal Info</TabsTrigger>
-                            <TabsTrigger value='qualifications'>Qualifications</TabsTrigger>
-                            <TabsTrigger value='skills'> Skills</TabsTrigger>
+                        <TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none" >
+                            <TabsTrigger className="w-[162px] xl:w-auto" value='personal'>Personal Info</TabsTrigger>
+                            <TabsTrigger className="w-[162px] xl:w-auto" value='qualifications'>Qualifications</TabsTrigger>
+                            <TabsTrigger className="w-[162px] xl:w-auto" value='skills'> Skills</TabsTrigger>
                         </TabsList>
                         {/* tabs content */}
-                        <div className="">
+                        <div className="text-lg mt-12 xl:mt-8">
                             {/* personal */}
-                            <TabsContent value='personal'>Personal info</TabsContent>
+                            <TabsContent value='personal'>
+                                <div className="text-center xl:text-left">
+                                    <h3 className="h3 mb-4">Unmatched Services Quality for Over 10 Years</h3>
+                                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I Specialize in crafting intuitive websites with cutting-edge technology, delivering dynamic and engaging user experiences.</p>
+                                    {/* icons */}
+                                    <div className=""></div>
+                                </div>
+                            </TabsContent>
                             <TabsContent value='qualifications'>Qualifications</TabsContent>
                             <TabsContent value='skills'>Skills</TabsContent>
                         </div>
