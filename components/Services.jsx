@@ -5,17 +5,17 @@ const servicesData=[
     {
     icon: <GanttChartSquare size={72 } strokeWidth={0.8} />,
     title:'Web Design',
-    description:'orem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description:'lorem Ipsum is simply dummy text of the printing and typesetting industry.',
 },
 {
     icon: <Blocks size={72 } strokeWidth={0.8} />,
     title:'Web Development',
-    description:'orem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description:'lorem Ipsum is simply dummy text of the printing and typesetting industry.',
 },
 {
     icon: <Gem size={72 } strokeWidth={0.8} />,
     title:'App Development',
-    description:'orem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description:'lorem Ipsum is simply dummy text of the printing and typesetting industry.',
 },
 ]
 
